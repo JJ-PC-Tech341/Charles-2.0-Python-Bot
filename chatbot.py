@@ -2,7 +2,6 @@ import smtplib
 import datetime
 import webbrowser
 import os
-import pywhatkit
 import wikipedia
 import pyjokes
 
@@ -80,12 +79,6 @@ def wishme():
         results = wikipedia.summary(command, sentences=2)
         print("According to Wikipedia")
         print(results)
-        wishme()
-
-    elif 'play' in command:
-        song = command.replace('play', '')
-        print('playing ' + song)
-        pywhatkit.playonyt(song)
         wishme()
 
     elif 'the time' in command:
