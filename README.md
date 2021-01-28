@@ -13,7 +13,7 @@ To use it run the following commands :
 
 3. cd Charles-2.0-Python-Bot
 
-4. pip3 install wikipedia && pip3 install pyjokes && pip3 install pywhatkit
+4. pip3 install wikipedia && pip3 install pyjokes 
 
 5. python3 chatbot.py
 
